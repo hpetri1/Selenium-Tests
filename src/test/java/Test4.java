@@ -25,8 +25,8 @@ public class Test4 {
         Assert.assertNull(buttons.get(0).getAttribute("disabled"));
         Assert.assertNotNull(buttons.get(1).getAttribute("disabled"));
 
-        System.out.println(buttons.get(0).getAttribute("disabled"));
-        System.out.println(buttons.get(1).getAttribute("disabled"));
+        //System.out.println(buttons.get(0).getAttribute("disabled"));
+        //System.out.println(buttons.get(1).getAttribute("disabled"));
 
         driver.quit();
     }
