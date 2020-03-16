@@ -6,7 +6,7 @@ public class ReverseString {
         String myStr = "ABCDEFG";
         String rev = "";
 
-        Integer len = myStr.length();
+        int len = myStr.length();
 
         while (len >= 1) {
             rev = rev + myStr.charAt(len - 1);
